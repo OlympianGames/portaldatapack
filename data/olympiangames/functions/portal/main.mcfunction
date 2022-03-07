@@ -1,5 +1,7 @@
 function olympiangames:portal/gel/main
 function olympiangames:portal/portals/main
+function olympiangames:portal/config/main
+scoreboard players enable @a config 
 kill @e[nbt={inGround:1b}]
 execute as @a store result score @s slot run data get entity @s SelectedItemSlot
 execute as @a if score @s geldrop matches 1 run item replace entity OlympianGames hotbar.8 with crossbow{display:{Name:'{"text":"Orange Gel","color":"gold","bold":true,"italic":false}'},ChargedProjectiles:[{id:"minecraft:arrow",Count:1b},{},{}],Charged:1b}
