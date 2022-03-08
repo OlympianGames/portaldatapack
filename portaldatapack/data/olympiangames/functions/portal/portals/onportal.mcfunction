@@ -1,0 +1,9 @@
+execute as @a if score @s slot matches 0 run scoreboard players set @s onportal 0
+execute as @a if score @s slot matches 1 run scoreboard players set @s onportal 0
+execute as @a if score @s slot matches 2 run scoreboard players set @s onportal 0
+execute as @a if score @s slot matches 3 run scoreboard players set @s onportal 1
+execute as @a if score @s slot matches 4 run scoreboard players set @s onportal 0
+execute as @a if score @s slot matches 5 run scoreboard players set @s onportal 2
+execute as @a if score @s slot matches 6 run scoreboard players set @s onportal 0
+execute as @a if score @s slot matches 7 run scoreboard players set @s onportal 0
+execute as @a if score @s slot matches 8 run scoreboard players set @s onportal 0

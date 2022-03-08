@@ -1,0 +1,3 @@
+execute as @a if score @s iceconfig matches 1 if score @s geldrop matches 6 if score @s slot matches 8 at @e[type=minecraft:arrow,nbt={inGround:1b}] run fill ~1 ~1 ~1 ~-1 ~-1 ~-1 minecraft:ice replace #minecraft:blocks
+execute as @a if score @s iceconfig matches 2 if score @s geldrop matches 6 if score @s slot matches 8 at @e[type=minecraft:arrow,nbt={inGround:1b}] run fill ~1 ~1 ~1 ~-1 ~-1 ~-1 minecraft:packed_ice replace #minecraft:blocks
+execute as @a if score @s iceconfig matches 3 if score @s geldrop matches 6 if score @s slot matches 8 at @e[type=minecraft:arrow,nbt={inGround:1b}] run fill ~1 ~1 ~1 ~-1 ~-1 ~-1 minecraft:blue_ice replace #minecraft:blocks
