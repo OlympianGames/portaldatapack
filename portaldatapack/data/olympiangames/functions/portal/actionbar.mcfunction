@@ -19,5 +19,6 @@ execute as @a if score @s slot matches 8 if score @s geldrop matches 1 run title
 execute as @a if score @s slot matches 8 if score @s geldrop matches 2 run title @s actionbar [{"text":"Blue Gel","color":"blue","bold":true}]
 execute as @a if score @s slot matches 8 if score @s geldrop matches 3 run title @s actionbar [{"text":"Light Blue Gel","color":"aqua","bold":true}]
 execute as @a if score @s slot matches 8 if score @s geldrop matches 4 run title @s actionbar [{"text":"Yellow Gel","color":"yellow","bold":true}]
-execute as @a if score @s slot matches 8 if score @s geldrop matches 5 run title @s actionbar [{"text":"Green Gel","color":"green","bold":true}]
+execute as @a if score @s slot matches 8 if score @s geldrop matches 5 run title @s actionbar [{"text":"Slimey Gel","color":"green","bold":true}]
+execute as @a if score @s slot matches 8 if score @s geldrop matches 6 run title @s actionbar [{"text":"Icy Gel","color":"dark_aqua","bold":true}]
 

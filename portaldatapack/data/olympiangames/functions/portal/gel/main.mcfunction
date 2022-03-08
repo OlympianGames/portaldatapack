@@ -5,3 +5,4 @@ function olympiangames:portal/gel/yellow
 function olympiangames:portal/gel/changegel
 function olympiangames:portal/gel/effects
 function olympiangames:portal/gel/slime
+function olympiangames:portal/gel/darkaqua
